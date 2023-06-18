@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Allura-Regular.ttf",
+      "sha1": "9f36627fa1afab68887d63cf002ab6646e62a798"
+    },
+    {
+      "path": "assets/fonts/Anydore.ttf",
+      "sha1": "d1ddab039b98b0858506b32996f89f2df6c91dd9"
+    },
+    {
+      "path": "assets/fonts/Autumn-in-November.ttf",
+      "sha1": "a053e09e882be3b4ccef29460b4aa83d1014ecd7"
+    },
+    {
+      "path": "assets/fonts/DancingScript-VariableFont_wght.otf",
+      "sha1": "f6ef1641594430e8367d9c26819a900c879b8f35"
+    },
+    {
+      "path": "assets/fonts/Kalam-Bold.ttf",
+      "sha1": "2a559015d425e2197d24dd64ec5f575b713c008f"
+    },
+    {
+      "path": "assets/fonts/Kalam-Light.ttf",
+      "sha1": "309afbdc02fed52d623f9870114f826f43623da7"
+    },
+    {
+      "path": "assets/fonts/Kalam-Regular.ttf",
+      "sha1": "8780563680372a86968c46c50cba05143654fe49"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha1": "ac49b7a0e4db1f103f378f0f0170bec32ec52e25"
+    },
+    {
+      "path": "assets/fonts/RubikVinyl-Regular.ttf",
+      "sha1": "46da720f71d14815846c71bf5d0044d14810680b"
+    }
+  ]
+}

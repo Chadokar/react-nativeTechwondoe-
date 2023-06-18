@@ -24,7 +24,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import Navigation from './app/Navigation';
+import Navigation from './app/navigation/BottomNavigation';
+import StackNavigation from './app/navigation/StackNavigation';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
@@ -33,8 +34,10 @@ import Navigation from './app/Navigation';
 const App = () => {
 
   return (
-    
-      <Navigation/>
+    <View style={{flex:1}} >
+      {/* <Navigation/> */}
+      <StackNavigation/>
+    </View>
   );
 };
 

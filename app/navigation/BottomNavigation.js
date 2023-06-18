@@ -2,18 +2,18 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native'
 import React from 'react'
 import { Image, StyleSheet, Text, View } from 'react-native'
-import Agrishop from './agri shop/Agrishop';
-import Home from './home/Home';
-import KrushiBook from './krushi book/KrushiBook';
-import Service from './service/Service';
-import Webinar from './webinar/Webinar';
+import Agrishop from '../agri shop/Agrishop';
+import Home from '../home/Home';
+import KrushiBook from '../krushi book/KrushiBook';
+import Service from '../service/Service';
+import Webinar from '../webinar/Webinar';
 
 const Logo = [
-    require('./accests/images/Home.png'),
-    require('./accests/images/Add.png'),
-    require('./accests/images/call-calling.png'),
-    require('./accests/images/l.png'),
-    require('./accests/images/translate.png'),
+    require('../accests/images/Home.png'),
+    require('../accests/images/Add.png'),
+    require('../accests/images/call-calling.png'),
+    require('../accests/images/l.png'),
+    require('../accests/images/translate.png'),
 ]
 
 
@@ -97,12 +97,12 @@ function MyTabs() {
   }
 
 
-const Navigation = () => {
+const BottomNavigation = () => {
   return (
     <>
-      <NavigationContainer>
+      {/* <NavigationContainer> */}
         <MyTabs/>
-      </NavigationContainer>
+      {/* </NavigationContainer> */}
     </>
   )
 }
@@ -111,7 +111,7 @@ const Navigation = () => {
 
 const styles = StyleSheet.create({
     navigator:{
-        backgroundColor:'black',
+        backgroundColor:'black', 
         padding:10,
     },
     tabBarstyle:{
@@ -136,8 +136,6 @@ const styles = StyleSheet.create({
       width: 22,
       height: 23,
       backgroundColor:'white',
-      
-      
     },
     tabstyle:{
       flex:1,
@@ -155,4 +153,4 @@ const styles = StyleSheet.create({
 
 
 
-export default Navigation
+export default BottomNavigation
