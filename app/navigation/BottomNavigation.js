@@ -56,7 +56,7 @@ function MyTabs() {
                 <Image style={[styles.tinyLogo , {tintColor:focused? 'red':color, height:22,width:21}]} 
                   source={Logo[1]} 
                 />
-                ),
+              ),
           }}
           name='Webinar' component={Webinar}/>
           <Tab.Screen 
@@ -78,7 +78,7 @@ function MyTabs() {
                 <Image style={[styles.tinyLogo , {tintColor:focused? 'red':color, height:22,width:21}]} 
                   source={Logo[3]} 
                 />
-                ),
+              ),
             }}
           name='Krushibook' component={KrushiBook}/>
         <Tab.Screen 
@@ -89,7 +89,7 @@ function MyTabs() {
                 <Image style={[styles.tinyLogo , {tintColor:focused? 'red':color, height:22,width:21}]} 
                   source={Logo[4]} 
                 />
-                ),
+              ),
             }}
           name='Agrishop' component={Agrishop}/>
       </Tab.Navigator>
